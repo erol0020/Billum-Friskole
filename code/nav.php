@@ -30,7 +30,7 @@ function nav($nav){
 
     if(is_array($val)){
 
-      echo '<li><span>' . $key . '</span>';
+      echo '<li><span class="nav-sub-title">' . $key . '</span>';
       echo '<ul class="nav-sub-structure">';
 
       foreach($val as $subK => $subV){

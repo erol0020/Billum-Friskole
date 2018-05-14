@@ -116,12 +116,36 @@
   text-decoration: underline !important;
   pointer-events: none;
 }
-/* Content */
-.main-content{
-
+.res-chevron-toggle{
+  margin-left: 25px;
+  cursor: pointer;
+  transform: rotate(90deg);
+  transition: .25s ease;
 }
+.res-chevron-toggle::after{
+  content: 'v';
+}
+/* Content */
 .the-content{
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
+}
+/* Responsive */
+@media screen and (max-width: 760px) {
+  .nav-main-structure{
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .nav-main-structure > li{
+    display: block;
+    width: 100%;
+  }
+  .nav-sub-title{
+    display: flex !important;
+    justify-content: center;
+  }
+  .nav-sub-structure{
+    display: none;
+  }
 }
