@@ -1,0 +1,127 @@
+@import url('imports/reset.css');
+@import url('imports/fontawesome-all.min.css');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,900');
+
+@font-face {
+  font-family: title;
+  src: url('imports/webfonts/KGSecondChancesSketch.ttf');
+}
+
+* {
+  box-sizing: border-box;
+}
+.drop-shadow{
+  box-shadow: 0 1px 0 0 rgba(0,0,0,.5);
+}
+
+/* Header */
+.main-container{
+  max-width: 100%;
+  min-height: 70000px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.main-header{
+  position: sticky;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  width: 100%;
+  height: 75px;
+  background-color: #46576f;
+  display: flex;
+  justify-content: space-between;
+}
+.main-header > .main-logo img{
+  display: block;
+  width: auto;
+  height: 75px;
+  padding: 15px;
+}
+.main-header > .main-nav-toggle{
+  color: #fff;
+}
+.main-header > .main-nav-toggle,
+.nav-close{
+  outline: none;
+  font-size: 33px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  width: 75px;
+  height: 75px;
+}
+/* Nav */
+.main-nav{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(70,87,111,.9);
+  transform: translateY(-100%);
+  transition: .5s ease;
+}
+.nav-main-structure{
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  text-align: center;
+}
+.nav-main-structure ul{
+  margin-bottom: 50px;
+}
+.nav-main-structure > li{
+  width: calc(100% / 3);
+}
+.nav-main-structure li > a:hover{
+  text-decoration: underline;
+}
+.nav-main-structure li > a,
+.nav-main-structure li > span{
+  color: #98dc56;
+  font-size: 30px;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 25px;
+  font-family: title;
+  text-decoration: none;
+}
+.nav-main-structure li > a{
+  color: #ffffff;
+}
+.nav-sub-structure{
+  line-height: 25px;
+}
+.nav-sub-structure li a{
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 0;
+  letter-spacing: normal;
+  font-family: 'Titillium Web', sans-serif;
+}
+.nav-header{
+  max-width: 100%;
+  height: 75px;
+  margin: 0 auto;
+}
+.nav-close{
+  margin-left: auto;
+  color: #fff;
+  display: block;
+}
+.nav-active{
+  text-decoration: underline !important;
+  pointer-events: none;
+}
+/* Content */
+.main-content{
+
+}
+.the-content{
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}

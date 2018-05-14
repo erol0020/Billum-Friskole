@@ -1,30 +1,26 @@
 <?php
-
 $nav = array(
-  'Skole'     => array(
-        'om-skolen'    => 'Om Skolen',
-        '7-8-klasse'    => '7-8 Klassen',
-        'dagligdagen' => 'Dagligdagen',
-        'ansatte'     => 'Ansatte'
+  'Skole' => array(
+    'om-skolen'      => 'Om Skolen',
+    'sfo'            => 'SFO',
+    'ansatte-skolen' => 'Ansatte'
   ),
-  'SFO'       => array(
-      'om-sfo'        => 'Om SFO',
-      'dagligdagen-sfo'  => 'Dagligdagen SFO',
-      'ansatte-sfo'      => 'Ansatte SFO'
+  'Børnehave' => array(
+    'om-boernehaven'     => 'Om Børnehaven',
+    'ansatte-boernehaven' => 'Ansatte'
   ),
-  'børnehave' => 'Børnehave',
   'Praktisk Info' => array(
-      'indmeldelse'                  => 'Indmeldense',
-      'priser'                       => 'Priser',
-      'kalender'                     => 'Kalender',
-      'aktiviteter'                  => 'Aktiviteter',
-      'vedtaegter'                   => 'Vedtægter',
-      'vaerdigrundlag'               => 'Vaerdigrundlag',
-      'undervisningsplaner'          => 'Undervisningplaner',
-      'certificeret-tilsynsfoerelse' => 'Certificeret Tilsynsførelse',
-      'udmeldelse'                   => 'Udmeldelse'
+    'kontakt'     => 'Kontakt',
+    'indmeldelse' => 'Indmeldelse',
+    'priser'      => 'Priser',
+    'kalender'    => 'Kalender',
+    'udmeldelse'  => 'Udmeldelse'
   ),
-  'kontakt'   => 'Kontakt'
+  'Om Os' => array(
+    'vaerdigrundlag' => 'Værdiggrundlag',
+    'vedtaegter'     => 'Vedtægter',
+    'ugebrev'        => 'Ugbrev'
+  )
 );
 
 function nav($nav){
