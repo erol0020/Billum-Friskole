@@ -140,6 +140,11 @@
   font-family: title;
   font-weight: normal;
   color: #98dc56;
+  margin-bottom: 25px; 
+}
+.the-content p{
+  margin-bottom: 25px;
+
 }
 /* Responsive */
 @media screen and (max-width: 760px) {
