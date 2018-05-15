@@ -180,7 +180,8 @@
   height: calc(100vh - 75px);
   position: relative;
 }
-.mainpage-hero img{
+.mainpage-hero img,
+.subpage-hero img{
   position: absolute;
   top: 0;
   left: 0;
@@ -204,7 +205,7 @@
   text-shadow: 3px 3px #000;
   color: #fff;
 }
-.mainpage-hero > .hero-container > .hero-title{
+.hero-container > .hero-title{
   font-family: title;
   font-size: 66.666px;
   font-weight: normal;
