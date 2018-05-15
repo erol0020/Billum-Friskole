@@ -1,20 +1,21 @@
 // Når siden er færdig med indlæsningen af siden, kør scriptet nedenfor
 document.addEventListener('DOMContentLoaded', function() {
 
-  // Responsiv script
+  // Function der kører hver eneste gang størrelsen på vinduet bliver ændret
   function resNav(width, bool){
     var navSubTitle = document.querySelectorAll('.nav-sub-title');
 
-    // Responsive ON
+    // Responsive mode
     if(width <= 760 && bool == false){
       bool = true;
 
-      // Gem alle submenuer på mobilenheden
+      // Skjul submenuerne på på mobil versionen
       var subMenues = document.getElementsByClassName('nav-sub-structure');
       for(var $i = 0; $i < subMenues.length; $i++){
         subMenues[$i].style.display = 'none';
       }
 
+      // TIlføj < (chevron) pil på hovedmenuerne
       for(var $i = 0; $i < navSubTitle.length; $i++){
         var append = document.createElement('small');
 
@@ -27,9 +28,11 @@ document.addEventListener('DOMContentLoaded', function() {
       var navClickToggle = false;
       var navClickTarget = null;
 
+      // Tilføj click events på alle chevron pile på hovedmenuerne
       for(var navInt = 0; navInt < resChevrons.length; navInt++){
         resChevrons[navInt].addEventListener('click', function(){
 
+          // Hvis ingen undermenuer er åben
           if(navClickToggle == false && navClickTarget == null){
             navClickToggle = true;
             navClickTarget = this;
@@ -37,6 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
             this.style.transform = 'rotate(0deg)';
             this.parentNode.parentNode.getElementsByClassName('nav-sub-structure')[0].style.display = 'block';
 
+          // Hvis en undermenu er åben men det er en anden der er klikket
           } else if(navClickToggle == true && navClickTarget != this){
             navClickTarget.parentNode.parentNode.getElementsByClassName('nav-sub-structure')[0].style.display = 'none';
             navClickTarget.style.transform = 'rotate(90deg)';
@@ -46,6 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
             this.style.transform = 'rotate(0deg)';
             this.parentNode.parentNode.getElementsByClassName('nav-sub-structure')[0].style.display = 'block';
 
+          // Hvis man klikker på den samme undermenu
           } else {
             navClickToggle = false;
             navClickTarget.style.transform = 'rotate(90deg)';
@@ -53,11 +58,11 @@ document.addEventListener('DOMContentLoaded', function() {
             navClickTarget = null;
           }
 
-        });
-      }
+        }); // Click event end
+      } // For loop end
 
-    // Responsive OFF
     }
+
     if(width > 760 && bool == true){
       bool = false;
 

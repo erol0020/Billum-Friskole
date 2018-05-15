@@ -10,6 +10,9 @@
 
   <!-- JS -->
   <script src="js/init.js"></script>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="img/gfx/icon.png">
 </head>
 <body>
   <div class="main-container">
@@ -18,7 +21,7 @@
         <img src="img/gfx/logo.svg" alt="Billum Friskole Logo" title="Tilbage til forsiden">
       </a>
 
-      <button id="toggle-nav" class="main-nav-toggle fas fa-bars"></button>
+      <button id="toggle-nav" class="main-nav-toggle fas fa-bars" title="Klik for at åbne hovedmenuen"></button>
 
       <nav class="main-nav">
         <div class="nav-header">
