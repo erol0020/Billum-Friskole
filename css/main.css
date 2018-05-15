@@ -147,7 +147,20 @@
 }
 .the-content p{
   margin-bottom: 25px;
-
+}
+.the-content .content-btn{
+  background-color: #46576f;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 7.5px;
+  transition: .1s ease;
+  border: 1px solid transparent;
+}
+.the-content .content-btn:hover{
+  background-color: #fff;
+  color: #46576f;
+  border: 1px solid #46576f;
 }
 /* Responsive */
 @media screen and (max-width: 760px) {
