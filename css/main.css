@@ -134,6 +134,8 @@
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.7;
 }
 .the-content h1{
   font-size: 30px;
@@ -234,5 +236,23 @@ input[type=submit] {
 
 /* Hover til send knappen */
 input[type=submit]:hover {
-    background-color: #74AA35;
+    background-color: #507f12;
+}
+
+.kontaktoplysninger {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.formularogkontakt {
+  display: flex;
+}
+
+.list_kontaktoplysninger {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.li_class {
+  margin-bottom: 20px;
 }
