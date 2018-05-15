@@ -17,7 +17,7 @@ $nav = array(
     'udmeldelse'  => 'Udmeldelse'
   ),
   'Om Os' => array(
-    'vaerdigrundlag' => 'Værdiggrundlag',
+    'vaerdigrundlag' => 'Værdigrundlag',
     'vedtaegter'     => 'Vedtægter',
     'ugebrev'        => 'Ugebrev'
   )
