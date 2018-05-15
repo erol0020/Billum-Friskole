@@ -135,6 +135,7 @@
   max-width: 1200px;
   margin: 0 auto;
   font-size: 18px;
+
 }
 
 .the-content h1,
@@ -305,11 +306,10 @@ input[type=submit]:hover {
   display: flex;
 }
 
-.list_kontaktoplysninger {
-  margin-bottom: 20px;
+.ul-class {
   list-style: none;
 }
 
-.li_class {
-  margin-bottom: 20px;
+.li-class {
+
 }
