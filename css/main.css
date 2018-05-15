@@ -135,8 +135,8 @@
   max-width: 1200px;
   margin: 0 auto;
   font-size: 18px;
-  line-height: 1.7;
 }
+
 .the-content h1,
 .the-content .title{
   font-size: 30px;
@@ -241,6 +241,10 @@
 h2 {
 font-size: 30px;
 margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
 }
 
 
