@@ -150,7 +150,7 @@
   margin-bottom: 25px;
 }
 .the-content .content-btn{
-  background-color: #46576f;
+  background-color: #88b337;
   color: #fff;
   text-decoration: none;
   padding: 15px;
@@ -160,8 +160,8 @@
 }
 .the-content .content-btn:hover{
   background-color: #fff;
-  color: #46576f;
-  border: 1px solid #46576f;
+  color: #88b337;
+  border: 1px solid #88b337;
 }
 /* Responsive */
 @media screen and (max-width: 760px) {
