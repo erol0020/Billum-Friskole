@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
             navClickTarget = this;
 
             this.style.transform = 'rotate(0deg)';
-            this.parentNode.parentNode.getElementsByClassName('nav-sub-structure')[0].style.display = 'block';
+            this.parentNode.parentNode.getElementsByClassName('nav-sub-structure')[0].style.display = 'inline-block';
 
           // Hvis en undermenu er åben men det er en anden der er klikket
           } else if(navClickToggle == true && navClickTarget != this){
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
             navClickTarget = this;
 
             this.style.transform = 'rotate(0deg)';
-            this.parentNode.parentNode.getElementsByClassName('nav-sub-structure')[0].style.display = 'block';
+            this.parentNode.parentNode.getElementsByClassName('nav-sub-structure')[0].style.display = 'inline-block';
 
           // Hvis man klikker på den samme undermenu
           } else {

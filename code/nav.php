@@ -19,7 +19,7 @@ $nav = array(
   'Om Os' => array(
     'vaerdigrundlag' => 'Værdiggrundlag',
     'vedtaegter'     => 'Vedtægter',
-    'ugebrev'        => 'Ugbrev'
+    'ugebrev'        => 'Ugebrev'
   )
 );
 
