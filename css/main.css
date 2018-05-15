@@ -128,6 +128,7 @@
 }
 /* Content */
 .the-content{
+  font-family: 'Titillium Web', sans-serif;
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -159,12 +160,19 @@
 
 
 /* H1 */
-.the-content .title {
-  font-size: 30px;
+ .the-content .title {
+  font-size: 50px;
   font-family: title;
   text-align: center;
   margin-bottom: 20px;
 }
+
+/* H2 */
+h2 {
+font-size: 30px;
+margin-bottom: 20px;
+}
+
 
 /* Hero (stort billede) til underside */
 .subpage-hero{
