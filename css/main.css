@@ -317,6 +317,6 @@ input[type=submit]:hover {
 /*Værdigrundlag*/
 
 .vaerdigrundlag {
-
+list-style-type: circle ;
 
 }
