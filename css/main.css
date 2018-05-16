@@ -1,6 +1,6 @@
 @import url('imports/reset.css');
 @import url('imports/fontawesome-all.min.css');
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,900');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
 
 @font-face {
   font-family: title;
@@ -12,6 +12,20 @@
 }
 .drop-shadow{
   box-shadow: 0 1px 0 0 rgba(0,0,0,.5);
+}
+
+.flex-row2{
+  display: flex;
+  align-items: flex-start;
+}
+.flex-row2 > .col-1,
+.flex-row2 > .col-2{
+  flex:1;
+}
+.col-2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* Header */
@@ -157,14 +171,15 @@ border-radius: 10px; /* Rounded corners */
 
 .the-content h1,
 .the-content .title{
-  font-size: 30px;
-  font-family: title;
-  font-weight: normal;
+  font-size: 35px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
   color: #98dc56;
   margin-bottom: 25px;
 }
 .the-content p{
   margin-bottom: 25px;
+  line-height: 25px;
 }
 .the-content .content-btn{
   background-color: #88b337;
@@ -247,13 +262,7 @@ border-radius: 10px; /* Rounded corners */
   font-style: italic;
   font-size: 33.333px;
 }
-/* H1 */
- .the-content .title {
-  font-size: 50px;
-  font-family: title;
-  text-align: center;
-  margin-bottom: 20px;
-}
+
 
 /* H2 */
 h2 {
