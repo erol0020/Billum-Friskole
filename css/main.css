@@ -7,7 +7,7 @@
   src: url('imports/webfonts/KGSecondChancesSketch.ttf');
 }
 
-* { 
+* {
   box-sizing: border-box;
 }
 .drop-shadow{
@@ -266,7 +266,12 @@ h3 {
   object-fit: cover;
 }
 
+
+
+
+
 /* Praktisk info - side */
+
 
 /* kontaktformular kassen */
 .contactformular {
