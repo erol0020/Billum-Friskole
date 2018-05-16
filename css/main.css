@@ -245,7 +245,6 @@ border-radius: 10px; /* Rounded corners */
 }
 .hero-container > .hero-title,
 .hero-container > .hero-slogan{
-  text-shadow: 5px 5px #000;
   color: #fff;
 }
 .hero-container > .hero-title{
@@ -253,11 +252,13 @@ border-radius: 10px; /* Rounded corners */
   font-size: 66.666px;
   font-weight: normal;
   margin-bottom: 25px;
+  text-shadow: 5px 5px rgba(0,0,0,.9);;
 }
 .mainpage-hero > .hero-container > .hero-slogan{
   font-family: 'Titillium Web', sans-serif;
   font-style: italic;
   font-size: 33.333px;
+  text-shadow: 2.5px 2.5px rgba(0,0,0,.5);
 }
 .forside-col div img{
   display: block;
