@@ -7,7 +7,7 @@
   src: url('imports/webfonts/KGSecondChancesSketch.ttf');
 }
 
-* { 
+* {
   box-sizing: border-box;
 }
 .drop-shadow{
@@ -18,9 +18,20 @@
   display: flex;
   align-items: flex-start;
 }
+.flex-row3{
+  display: flex;
+  align-items: flex-start;
+}
 .flex-row2 > .col-1,
-.flex-row2 > .col-2{
+.flex-row2 > .col-2,
+.flex-row3 > .col-1,
+.flex-row3 > .col-2,
+.flex-row3 > .col-3{
   flex:1;
+  list-style: none;
+}
+.flex-row3 > .col-2{
+  margin: 0 20px;
 }
 .col-2 img{
   width: 100%;
@@ -46,6 +57,7 @@
   display: flex;
   justify-content: space-between;
   z-index: 2;
+  padding: 0 15px;
 }
 .main-header > .main-logo img{
   display: block;
@@ -63,8 +75,9 @@
   border: 0;
   background-color: transparent;
   cursor: pointer;
-  width: 75px;
+  width: auto;
   height: 75px;
+  padding: 0;
 }
 /* Nav */
 .main-nav{
@@ -125,6 +138,7 @@
 }
 .nav-close{
   margin-left: auto;
+  margin-right: 20px;
   color: #fff;
   display: block;
 }
@@ -242,7 +256,27 @@ border-radius: 10px; /* Rounded corners */
   font-style: italic;
   font-size: 33.333px;
 }
-
+.forside-col div img{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  margin-top: 20px;
+}
+.forside-col div .title{
+  text-align: center;
+}
+.forside-col .multiple-btns{
+  display: flex;
+  flex-direction: column;
+}
+.forside-col a{
+  display: block;
+  margin-bottom: 20px;
+  color: #98dc56;
+}
 
 /* H2 */
 h2 {

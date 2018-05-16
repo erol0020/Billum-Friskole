@@ -39,7 +39,7 @@
 
         <div class="footer-col-adress">
           <h3 class="footer-title">Kontakt Billum Friskole</h3>
-          <ul> 
+          <ul>
             <li>Telefon: <a href="tel:+4551889596">+45 51 88 95 96</a></li>
             <li>Mail: <a href="mailto:gimo@billumfriskole.dk">gimo@BillumFriskole.dk</a></li>
             <li><address>Adresse: <a target="_blank" href="https://www.google.dk/maps?q=Kildegårsvej-20-6852-Billum">Kildegårsvej 20, 6852 Billum</a></address></li>
