@@ -7,7 +7,7 @@
   src: url('imports/webfonts/KGSecondChancesSketch.ttf');
 }
 
-* {
+* { 
   box-sizing: border-box;
 }
 .drop-shadow{
