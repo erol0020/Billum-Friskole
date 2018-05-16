@@ -470,6 +470,16 @@ list-style-type: circle ;
     width: auto;
     margin: 0 auto;
   }
+  /* - Forside - */
+  .forside-flex-row{
+    flex-direction: column;
+  }
+  .forside-col{
+    border-bottom: 1px solid #ccc;
+  }
+  .forside-col:last-child{
+    border-bottom: 0;
+  }
   /* - Footer - */
   .main-footer-content{
     flex-direction: column;
