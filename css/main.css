@@ -264,6 +264,7 @@ border-radius: 10px; /* Rounded corners */
   font-family: title;
   font-size: 66.666px;
   font-weight: normal;
+  text-align: center;
   margin-bottom: 25px;
   text-shadow: 5px 5px rgba(0,0,0,.9);;
 }
@@ -324,7 +325,6 @@ border-radius: 10px; /* Rounded corners */
   top: 0;
   left: 0;
   background-image: url('../img/gfx/quotation-start.svg');
-
 }
 .home-background-green .block-qoute::after{
   content: '';
@@ -537,6 +537,17 @@ list-style-type: circle ;
     width: auto;
     margin: 0 auto;
   }
+  /* - Hero - */
+  .hero-container .hero-title{
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2.5px 2.5px #000;
+  }
+  .hero-container .hero-slogan{
+    font-size: 20px !important;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+  }
   /* - Forside - */
   .forside-flex-row{
     flex-direction: column;
@@ -546,6 +557,37 @@ list-style-type: circle ;
   }
   .forside-col:last-child{
     border-bottom: 0;
+  }
+  .home-background-green .flex-row2{
+    flex-direction: column;
+  }
+  .home-background-green .flex-row2 .col-1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .home-background-green .flex-row2 .block-qoute{
+    padding: 0;
+    margin: 0 auto;
+    width: 66.666%;
+  }
+  .home-background-green .flex-row2 .block-qoute::before{
+    transform: translateX(-50px);
+  }
+  .home-background-green .flex-row2 .block-qoute::after{
+    transform: translateX(50px);
+  }
+  .home-background-green .flex-row2 .block-quote-cite{
+    padding: 0;
+    text-align: center;
+  }
+  .home-background-green .flex-row2 .col-2{
+    width: 100%;
+  }
+  .home-background-green .col-2 img{
+    width: inherit;
+    max-width: 250px;
+    height: auto;
   }
   /* - Footer - */
   .main-footer-content{
