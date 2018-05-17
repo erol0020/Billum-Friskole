@@ -25,21 +25,34 @@
   display: flex;
   align-items: flex-start;
 }
+.align-center{
+  align-items: center;
+}
 .flex-row2 > .col-1,
 .flex-row2 > .col-2,
 .flex-row3 > .col-1,
 .flex-row3 > .col-2,
 .flex-row3 > .col-3{
-  flex:1;
   list-style: none;
+}
+.flex-row3 > *{
+  flex: 1;
+}
+.flex-row2 > .col-1{
+  padding-right: 50px;
+  width: 66.666%;
+}
+.flex-row2 > .col-2{
+  width: 33.333%;
 }
 .flex-row3 > .col-2{
   margin: 0 20px;
 }
-.col-2 img{
+.flex-row2 > .col-2 img{
   width: 100%;
   height: 100%;
   object-fit: contain;
+  padding: 2.5px;
 }
 
 /* Header */
@@ -281,7 +294,50 @@ border-radius: 10px; /* Rounded corners */
   margin-bottom: 20px;
   color: #98dc56;
 }
+.home-background-green{
+  background-color: rgba(0,0,0,.05);
+  padding: 10px 0;
+}
+.home-background-green .col-2 img{
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+.home-background-green .block-qoute{
+  font-style: italic;
+  padding: 0 50px;
+  line-height: 25px;
+  position: relative;
+}
+.home-background-green .block-qoute::before,
+.home-background-green .block-qoute::after{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.home-background-green .block-qoute::before{
+  content: '';
+  top: 0;
+  left: 0;
+  background-image: url('../img/gfx/quotation-start.svg');
 
+}
+.home-background-green .block-qoute::after{
+  content: '';
+  right: 0;
+  bottom: 0;
+  background-image: url('../img/gfx/quotation-end.svg');
+}
+.home-background-green .block-quote-cite{
+  display: block;
+  text-align: right;
+  margin-top: 30px;
+  padding: 0 50px;
+}
 /* H2 */
 h2 {
 font-size: 30px;
@@ -444,6 +500,17 @@ list-style-type: circle ;
   height: 35px;
   object-fit: contain;
   margin-right: 10px;
+}
+.main-footer-credentials{
+  font-family: 'Titillium Web', sans-serif;
+  color: #fff;
+  background-color: rgba(0,0,0,.33);
+}
+.main-footer-credentials > p{
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* Responsive */

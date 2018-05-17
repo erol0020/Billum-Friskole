@@ -59,6 +59,8 @@
         </div>
 
       </div>
+
+      <div class="main-footer-credentials"><p>Billum Friskole © 2017-2018 All Rights Reserved</p></div>
     </footer>
   </div>
 </body>
