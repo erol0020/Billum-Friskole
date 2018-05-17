@@ -21,20 +21,9 @@
   display: flex;
   align-items: flex-start;
 }
-.flex-row3{
-  display: flex;
-  align-items: flex-start;
-}
 .flex-row2 > .col-1,
-.flex-row2 > .col-2,
-.flex-row3 > .col-1,
-.flex-row3 > .col-2,
-.flex-row3 > .col-3{
+.flex-row2 > .col-2{
   flex:1;
-  list-style: none;
-}
-.flex-row3 > .col-2{
-  margin: 0 20px;
 }
 .col-2 img{
   width: 100%;
@@ -60,7 +49,6 @@
   display: flex;
   justify-content: space-between;
   z-index: 2;
-  padding: 0 15px;
 }
 .main-header > .main-logo img{
   display: block;
@@ -78,9 +66,8 @@
   border: 0;
   background-color: transparent;
   cursor: pointer;
-  width: auto;
+  width: 75px;
   height: 75px;
-  padding: 0;
 }
 /* Nav */
 .main-nav{
@@ -141,7 +128,6 @@
 }
 .nav-close{
   margin-left: auto;
-  margin-right: 20px;
   color: #fff;
   display: block;
 }
@@ -245,6 +231,7 @@ border-radius: 10px; /* Rounded corners */
 }
 .hero-container > .hero-title,
 .hero-container > .hero-slogan{
+  text-shadow: 5px 5px #000;
   color: #fff;
 }
 .hero-container > .hero-title{
@@ -252,35 +239,13 @@ border-radius: 10px; /* Rounded corners */
   font-size: 66.666px;
   font-weight: normal;
   margin-bottom: 25px;
-  text-shadow: 5px 5px rgba(0,0,0,.9);;
 }
 .mainpage-hero > .hero-container > .hero-slogan{
   font-family: 'Titillium Web', sans-serif;
   font-style: italic;
   font-size: 33.333px;
-  text-shadow: 2.5px 2.5px rgba(0,0,0,.5);
 }
-.forside-col div img{
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  width: 130px;
-  height: 130px;
-  object-fit: contain;
-  margin-top: 20px;
-}
-.forside-col div .title{
-  text-align: center;
-}
-.forside-col .multiple-btns{
-  display: flex;
-  flex-direction: column;
-}
-.forside-col a{
-  display: block;
-  margin-bottom: 20px;
-  color: #98dc56;
-}
+
 
 /* H2 */
 h2 {
@@ -469,16 +434,6 @@ list-style-type: circle ;
     margin-bottom: 25px !important;
     width: auto;
     margin: 0 auto;
-  }
-  /* - Forside - */
-  .forside-flex-row{
-    flex-direction: column;
-  }
-  .forside-col{
-    border-bottom: 1px solid #ccc;
-  }
-  .forside-col:last-child{
-    border-bottom: 0;
   }
   /* - Footer - */
   .main-footer-content{
