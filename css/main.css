@@ -200,14 +200,16 @@ border-radius: 10px; /* Rounded corners */
 
 
 .the-content h1,
-.the-content .title{
+.the-content .title,
+.ansatte-list .list-container .title{
   font-size: 35px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: bold;
   color: #98dc56;
   margin-bottom: 25px;
 }
-.the-content p{
+.the-content p,
+.ansatte-list .list-container .list-info p{
   margin-bottom: 25px;
   line-height: 25px;
 }
@@ -359,6 +361,33 @@ border-radius: 10px; /* Rounded corners */
   height: auto;
   border-radius: 5px;
   box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.5);
+}
+/* - Ansatte - */
+.ansatte-list{
+  list-style: none;
+}
+.ansatte-list li{
+  width: 100%;
+}
+.ansatte-list li:nth-child(odd){
+  background-color: rgba(0,0,0,0.05);
+}
+.ansatte-list .list-container{
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.ansatte-list .list-container .list-image{
+  width: 25%;
+}
+.ansatte-list .list-container .list-image img{
+  border-radius: 100%;
+}
+.ansatte-list .list-container .list-info{
+  width: 75%;
+  font-family: 'Titillium Web', sans-serif;
 }
 /* H2 */
 h2 {
