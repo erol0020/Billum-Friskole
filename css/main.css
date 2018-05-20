@@ -200,8 +200,7 @@ border-radius: 10px; /* Rounded corners */
 
 
 .the-content h1,
-.the-content .title,
-.ansatte-list .list-container .title{
+.the-content .title{
   font-size: 35px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: bold;
@@ -384,6 +383,12 @@ border-radius: 10px; /* Rounded corners */
 }
 .ansatte-list .list-container .list-image img{
   border-radius: 100%;
+}
+.ansatte-list .list-container .title{
+  font-family: 'Titillium Web', sans-serif;
+  color: #333;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 .ansatte-list .list-container .list-info{
   width: 75%;
@@ -649,6 +654,24 @@ list-style-type: circle ;
   }
   .forside-gallery li:last-child{
     margin-bottom: 0;
+  }
+  /* - Ansatte - */
+  .ansatte-list .list-container{
+    flex-direction: column;
+  }
+  .ansatte-list .list-container .list-image{
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .ansatte-list .list-container .list-info{
+    width: 100%;
+  }
+  .ansatte-list .list-container .list-info .title{
+    word-wrap:break-word;
+  }
+  .ansatte-list .list-container .list-image img{
+    display: block;
+    margin: auto;
   }
   /* - Footer - */
   .main-footer-content{
