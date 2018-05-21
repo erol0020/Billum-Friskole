@@ -21,7 +21,7 @@
         <img src="img/gfx/logo.svg" alt="Billum Friskole Logo" title="Tilbage til forsiden">
       </a>
 
-      <button id="toggle-nav" class="main-nav-toggle fas fa-bars" title="Klik for at åbne hovedmenuen"></button>
+      <button id="toggle-nav" class="main-nav-toggle" title="Klik for at åbne hovedmenuen"><span class="menu-text">Menu</span><span class="menu-icon fas fa-bars"></span></button>
 
       <nav class="main-nav">
         <div class="nav-header">
