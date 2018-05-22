@@ -109,4 +109,31 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 
+  // Arrow up
+
+  // Hvis der bliver scrollet 40 px ned fra toppen af dokumentet vil pilen vise sig
+
+  window.onscroll = function () {scrollFunction()};
+
+  function scrollFunction () {
+    if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+      document.getElementById ("arrow-up-id").style.display ="block";
+    } else {
+      document.getElementById ("arrow-up-id").style.display ="none";
+    }
+  }
+
+// Når brugeren trykker på knappen vil der blive scrollet til toppen af dokumentet
+
+document.querySelector('#arrow-up-id').addEventListener('click', function(){
+  topFunction();
+});
+
+function topFunction() {
+  document.body.scrollTop = 0 //For Safari
+  document.documentElement.scrollTop = 0; //For chrome og firefox
+}
+
+
+
 }); // js slut
