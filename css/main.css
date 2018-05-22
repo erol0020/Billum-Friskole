@@ -718,3 +718,16 @@ input[type=submit]:hover {
     margin: 0;
   }
 }
+
+
+
+
+/* Ugebrev */
+
+.ul-class-ugebrev {
+  display: flex;
+}
+
+.li-class-ugebrev {
+  width: calc(100% / 3);
+}
