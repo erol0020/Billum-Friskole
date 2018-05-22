@@ -497,8 +497,14 @@ input[type=submit]:hover {
 /*Værdigrundlag*/
 
 .vaerdigrundlag {
-list-style-type: circle ;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  list-style-type: circle;
+  line-height: 30px;
+}
 
+.no-background{
+  background-color: transparent;
 }
 
 /* - Footer - */
