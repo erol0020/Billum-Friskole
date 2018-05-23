@@ -827,4 +827,27 @@ input[type=submit]:hover {
   .footer-col-intranet{
     margin: 0;
   }
+  .flex-row2,
+  .formularogkontakt{
+    flex-direction: column;
+  }
+  .flex-row2 .col-1,
+  .flex-row2 .col-2,
+  .contactformular,
+  .kontaktoplysninger{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .flex-row2 .col-1{
+    margin-bottom: 20px;
+  }
+  .contactformular{
+    padding: 10px;
+  }
+  .kontaktoplysninger{
+    text-align: center;
+  }
 }
