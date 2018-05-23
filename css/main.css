@@ -88,9 +88,10 @@
   align-items: center;
 }
 .main-header > .main-nav-toggle .menu-text{
-  font-size: 25px !important;
+  font-size: 30px !important;
   color: #fff;
   text-transform: uppercase;
+  font-family: title;
 }
 .main-header > .main-nav-toggle .menu-icon{
   margin-left: 10px;
