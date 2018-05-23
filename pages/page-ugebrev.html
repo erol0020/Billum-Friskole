@@ -10,6 +10,17 @@
   <div class="main-content">
     <div class="the-content">
 
+      <form class="ugebrev-search" action="index.php" method="post">
+        <div class="pagenation">
+          <button type="button" class="fa fa-chevron-left"></button>
+          <div><span>1</span>af <span>5</span></div>
+          <button  type="button" class="fa fa-chevron-right"></button>
+        </div>
+
+        <input class="search-filter" type="search" name="search" required>
+        <input type="submit" name="subit" value="Søg">
+      </form>
+
       <ul class="ul-class-ugebrev">
         <li>
           <figure>
@@ -45,6 +56,15 @@
     </div>
   </div>
 
-
   <!-- pil op -->
   <button type="button" class="fas fa-arrow-up arrow-up" id="arrow-up-id" name="button"></button>
+
+<script type="text/javascript">
+  var news = document.querySelectorAll('.ul-class-ugebrev > li');
+  for(var x = 0; x < news.length; x++){
+    news[x].addEventListener('click', function(){
+      var newsTitle = this.getElementsByClassName('title')[0].childNodes[0].nodeValue;
+      alert(newsTitle + 'findes ikke, da det er en prototype!');
+    });
+  }
+</script>
