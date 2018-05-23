@@ -135,8 +135,8 @@ function topFunction() {
 }
 
 document.querySelector('#scroll-click').addEventListener('click', function(){
-  document.body.scrollTop = 500 //For Safari
-  document.documentElement.scrollTop = 500; //For chrome og firefox
+  document.body.scrollTop = 458 //For Safari
+  document.documentElement.scrollTop = 458; //For chrome og firefox
 });
 
 document.querySelector('#kontakt-form').addEventListener('submit', function(event){
