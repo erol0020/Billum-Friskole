@@ -134,6 +134,10 @@ function topFunction() {
   document.documentElement.scrollTop = 0; //For chrome og firefox
 }
 
+document.querySelector('#scroll-click').addEventListener('click', function(){
+  document.body.scrollTop = 500 //For Safari
+  document.documentElement.scrollTop = 500; //For chrome og firefox
+});
 
 
 }); // js slut
