@@ -139,5 +139,9 @@ document.querySelector('#scroll-click').addEventListener('click', function(){
   document.documentElement.scrollTop = 500; //For chrome og firefox
 });
 
+document.querySelector('#kontakt-form').addEventListener('submit', function(event){
+  event.preventDefault();
+  alert('Dette er en prototype og virker ikke');
+});
 
 }); // js slut
