@@ -120,6 +120,7 @@
   background-color: rgba(70,87,111,.9);
   transform: translateY(-100%);
   transition: .5s ease;
+  z-index: 3;
 }
 .nav-main-structure{
   max-width: 100%;
@@ -307,7 +308,7 @@ outline: none;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
   cursor: pointer;
-  z-index: 2;
+  z-index: 1;
 }
 @keyframes float{
   0% {
@@ -829,20 +830,23 @@ input[type=submit]:hover {
     margin: 0;
   }
   .flex-row2,
-  .formularogkontakt{
+  .formularogkontakt,
+  .ul-class-ugebrev{
     flex-direction: column;
   }
   .flex-row2 .col-1,
   .flex-row2 .col-2,
   .contactformular,
-  .kontaktoplysninger{
+  .kontaktoplysninger,
+  .ul-class-ugebrev li{
     width: 100%;
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
   }
-  .flex-row2 .col-1{
+  .flex-row2 .col-1,
+  .ul-class-ugebrev li{
     margin-bottom: 20px;
   }
   .contactformular{
