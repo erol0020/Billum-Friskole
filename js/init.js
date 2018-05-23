@@ -134,14 +134,20 @@ function topFunction() {
   document.documentElement.scrollTop = 0; //For chrome og firefox
 }
 
-document.querySelector('#scroll-click').addEventListener('click', function(){
-  document.body.scrollTop = 458 //For Safari
-  document.documentElement.scrollTop = 458; //For chrome og firefox
-});
+var contactform = document.getElementById('kontakt-form');
+if(contactform){
+  document.querySelector("#kontakt-form").addEventListener('click', function(evt){
+    evt.preventDefault();
+    alert('Dette er en prototype og virker ikke');
+  });
+}
 
-document.querySelector('#kontakt-form').addEventListener('submit', function(event){
-  event.preventDefault();
-  alert('Dette er en prototype og virker ikke');
-});
+var scrollerCheck = document.getElementById('scroll-click');
+if(scrollerCheck){
+  document.querySelector('#scroll-click').addEventListener('click', function(){
+    document.body.scrollTop = 458; //For Safari
+    document.documentElement.scrollTop = 458; //For chrome og firefox
+  });
+}
 
 }); // js slut
