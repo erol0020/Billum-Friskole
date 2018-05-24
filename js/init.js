@@ -136,7 +136,7 @@ function topFunction() {
 
 var contactform = document.getElementById('kontakt-form');
 if(contactform){
-  document.querySelector("#kontakt-form").addEventListener('click', function(evt){
+  document.querySelector("#kontakt-form").addEventListener('submit', function(evt){
     evt.preventDefault();
     alert('Dette er en prototype og virker ikke');
   });
